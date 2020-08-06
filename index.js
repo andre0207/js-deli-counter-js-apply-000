@@ -1,8 +1,26 @@
-const takeANumber = (currentLine, name) => {
-  currentLine.push(name)
-    let greet = `Welcome, ${name}. You are number ${currentLine.length} in line.`
-    return greet;
+// const takeANumber = (currentLine, name) => {
+//   currentLine.push(name)
+//     let greet = `Welcome, ${name}. You are number ${currentLine.length} in line.`
+//     return greet;
+// }
+
+const takeANumber (currentLine) => {
+  let newLine = []
+  let num = 0
+  
+  num++ 
+  currentLine.push(num);
+  
+  return `Welcome, you\'re ${num} in line.`
 }
+
+
+
+
+
+
+
+
 
 
 const nowServing = (line) => {
